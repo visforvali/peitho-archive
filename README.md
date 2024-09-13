@@ -1,2 +1,2 @@
 # peitho-archive
-Archive for 2024 Peitho cluster
+Submission for 2024 Peitho Cluster Conversation, "Hope in the Archives." CC-BY-NC-ND Vyshali Manivannan
