@@ -487,7 +487,30 @@ a.btn-modal:hover {
     display: block;
     clear: both;
 }
-  
+
+.thumbnail { 
+  overflow:hidden;
+  position: relative;
+}
+
+.thumbnail:hover .descript { 
+  bottom: 0; 
+}
+
+.descript { 
+  padding: 10px; 
+  width: 100%; 
+  background-color: #000000; 
+  color: #ffffff; 
+  opacity: .8; 
+  position: absolute; 
+  bottom: -100px;  
+  -webkit-transition: all .2s ease-in-out; 
+  -moz-transition: all .2s ease-in-out; 
+  -o-transition: all .2s ease-in-out; 
+  -ms-transition: all .2s ease-in-out; 
+}
+
 @media screen and (min-width: 400px) {
    .masonry .item,
    .masonry .grid-sizer { width:  calc( ( 100% - 20px ) / 2 ); }
